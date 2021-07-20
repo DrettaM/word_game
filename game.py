@@ -1,5 +1,5 @@
 import random
-# library that we use in order to randomly choose words from a list of words
+# library to randomly choose words from the list of words
  
 name = input("Hello, what is your name? ")
 # User inputs their name
