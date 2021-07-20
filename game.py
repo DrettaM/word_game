@@ -6,9 +6,9 @@ name = input("Hello, what is your name? ")
  
 print("Good Luck! ", name)
  
-words = ['rainbow', 'computer', 'science', 'programming',
-         'python', 'mathematics', 'player', 'condition',
-         'reverse', 'water', 'board', 'geeks']
+words = ['earth', 'uranus', 'saturn', 'jupiter',
+         'mars', 'pluto', 'neptune', 'venus',
+         'planet', 'moon', 'sun']
  
 # Function will choose one random word from the words list
 word = random.choice(words)
