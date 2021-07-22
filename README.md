@@ -20,8 +20,8 @@ If user does not want to play again, display “thanks for playing!” and exit 
 
 Features Included:
 
-    Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program -->
-    Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
-    Create a class, then create at least one object of that class and populate it with data. The value of at least one object must be used somewhere in your code
-    Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
-    Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
+   1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program -->
+   2. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
+   3. Create a class, then create at least one object of that class and populate it with data. The value of at least one object must be used somewhere in your code
+   4. Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
+   5. Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
