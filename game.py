@@ -12,7 +12,6 @@ def play_game():
     # will choose one random word from the words list
     word = random.choice(words)
     
-    
     print("Guess the letters.")
     
     guesses = ''
