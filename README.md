@@ -1,5 +1,4 @@
 # **Welcome to "Star Words"** (a word guessing game)
-	*by: Mildretta Martin*
 
 ## **How it Works:**
 
@@ -22,21 +21,23 @@
 
 ## **Features Included:**
 
- * Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program.
+* Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program.
 	- *The game will repeat until the user answers "n" when asked "Would you like to play again?"*
 
- * Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
-	- *The game is played using a list that is named "words" which appears in lines 11-13 in the play_game function.*
+* Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
+	- *The game is played using a list ("words") which appears in lines 8-10 in the play_game function.*
 
-  * Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
+* Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
+	- *Still under development.*
 
- * Create and call at least 3 functions or methods, at least one of which must return a value that is used somewhere else in your code. To clarify, at least one function should be called in your code, that function should calculate, retrieve, or otherwise set the value of a variable or data structure, return a value to where it was called, and use that value somewhere else in your code. For example, you could create a function that reads how many items there are in a text file, returns that value, and later uses that value to execute a loop a certain number of times.
-	- *The functions defined are "play_game" (lines 10-73), "play_again" (lines 76-87), and "quit_game" (lines 90-92).*
+* Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
+	- *Still under development.*
+
+* Create and call at least 3 functions or methods, at least one of which must return a value that is used somewhere else in your code. To clarify, at least one function should be called in your code, that function should calculate, retrieve, or otherwise set the value of a variable or data structure, return a value to where it was called, and use that value somewhere else in your code. For example, you could create a function that reads how many items there are in a text file, returns that value, and later uses that value to execute a loop a certain number of times.
+	- *There are 4 functions defined: "play_game" (lines 7-70), "play_again" (lines 74-85), "quit_game" (lines 89-91), and "game_rules" (lines 95-105).*
 
 ## **Future Features:**
 
-#### - *Add a "game_rules" function to outline all the rules and the object of the game.*
-#### - *Update word list so that it pulls words from an external file.*
 #### - *Add a "roll_the_dice" function to randomize the number of guesses.*
 #### - *Create a GUI to play the game outside for the terminal environment.*
 
