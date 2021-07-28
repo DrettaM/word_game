@@ -39,5 +39,5 @@
 ## **Future Features:**
 
 #### - *Add a "roll_the_dice" function to randomize the number of guesses.*
-#### - *Create a GUI to play the game outside of the terminal environment.*
+
 
