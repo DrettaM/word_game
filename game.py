@@ -2,9 +2,6 @@ import random   # library to randomly choose words from the list of words
 
 import sys  # sys module provides access to the variables and functions that interact strongly with the interpreter
 
-# Define a function to list the rules of the game
-# def game_rules():
-#     import 
 
 # Define a function to run the game
 def play_game():
@@ -72,6 +69,7 @@ def play_game():
                 print("Better luck next time.\n")
                 play_again()
 
+
 # Define a function to play the game again
 def play_again(): 
     play_again = input("\nWould you like to play again?  ").lower()
@@ -86,11 +84,25 @@ def play_again():
     else:
         quit_game()
 
+
 # Define a function to quit the game
 def quit_game():
     print("\nThat's okay {}, perhaps another time.\n".format(name))
     sys.exit()
 
+
+# Define a function to list the rules of the game
+def game_rules():
+    know_rules = input("\nDo you know the rules of STAR WORDS? ").lower()
+    if know_rules in ("no", "n"):
+        from rules import game_play, game_objective
+        play_game()
+        
+    elif know_rules not in ("yes", "y", "no", "n"):
+        print("Please answer yes or no.")
+    
+    else:
+        play_game()
 
 # Ask user to input their name.
 name = input("Hello, what is your name? ")
@@ -102,16 +114,15 @@ while name == '':
 # Greet user by name 
 print("\nNice to meet you {}!".format(name))
 
+# Ask user if they want to play a word game
 while True: 
-    # Ask user if they want to play a word game
     want_to_play = input("\nWould you like to play a game? ").lower()
 
     # If yes, introduce game, list rules, and start the game.
     if want_to_play in ("yes",  "y"):
         print("\nGreat {}, let's play STAR WORDS!".format(name))
-        # game_rules()
-        play_game()
-
+        game_rules()
+        
     # If the response is anything other than yes or no, ask the user to try again.
     elif want_to_play not in ("yes", "y", "no", "n"):
         print("Please answer yes or no.")
