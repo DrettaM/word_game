@@ -17,7 +17,7 @@ def play_game():
     
     print("\nYour word has {} letters. Try to guess them!".format(len(word)))
     
-    guesses = ''
+    guesses = "" 
     
     # indicate the number of chances allowed
     chances = len(word) + 2
@@ -45,15 +45,15 @@ def play_game():
 
         if failed == 0:
             # If all the letters are guessed correctly before the user runs out of chances, then congrats!
-            print("\nCongratulations {}, you win!!!".format(name))
+            print("\n\nCongratulations {}, you win!!!".format(name))
             
             # prints the correct word
-            print("\nThe word is: {}.".format(word))
+            print("\n\nThe word is: {}.".format(word))
             # ask if they would like to play again.
             play_again() 
         
         # instruct the user to choose a letter
-        guess = input("\nChoose a letter: ")
+        guess = input("\n\nChoose a letter: ")
 
         guess = guess[0] # Ensures only 1st letter entered is used if multiple are attempted.
         
