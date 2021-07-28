@@ -35,8 +35,8 @@
 
 ## **Future Features:**
 
-##### * *Add a "game_rules" function to outline all the rules and the object of the game.*
-##### * *Update word list so that it pulls words from an external file.*
-##### * *Add a "roll_the_dice" function to randomize the number of guesses.*
-##### * *Create a GUI to play the game outside for the terminal environment.*
+#### - *Add a "game_rules" function to outline all the rules and the object of the game.*
+#### - *Update word list so that it pulls words from an external file.*
+#### - *Add a "roll_the_dice" function to randomize the number of guesses.*
+#### - *Create a GUI to play the game outside for the terminal environment.*
 
