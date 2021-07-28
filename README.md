@@ -1,4 +1,8 @@
-Game Process:
+##Welcome to "Word Psychic" - a word guessing game
+
+# Game Process:
+
+The game starts by asking the user to input their name.
 
 · Ask user to input their name.
 · Greet user by name
