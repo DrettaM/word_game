@@ -1,7 +1,6 @@
-import random
-# library to randomly choose words from the list of words
+import random   # library to randomly choose words from the list of words
 
-import sys
+import sys  # sys module provides access to the variables and functions that interact strongly with the interpreter
 
 # Define a function to run the game
 def play_game():
@@ -87,11 +86,9 @@ def play_game():
         else:
             quit_game()
 
-
 def quit_game():
     print("Thanks anyway {}, perhaps another time.".format(name))
     sys.exit()
-
 
 name = input("Hello, what is your name? ")
 # User inputs their name
